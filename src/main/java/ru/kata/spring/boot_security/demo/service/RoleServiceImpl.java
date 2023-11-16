@@ -4,6 +4,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import ru.kata.spring.boot_security.demo.repository.RoleRepository;
 import ru.kata.spring.boot_security.demo.model.Role;
+
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
